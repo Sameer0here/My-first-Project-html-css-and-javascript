@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    width: 100%;
+    height: 100%;
+  }
+  .main{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    
+  }
+  #containor{
+    height: 80vh;
+    width: 90vw;
+    background-color: plum;
+    margin-top: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  #nev{
+    padding-left: 250px;
+    padding-right: 250px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    background-color: green;
+  }
+  .elem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+   
+  }
+  .box{
+    font-family: sans-serif;
+    color: rgb(9, 112, 9);
+    height: 35px;
+    width: 35px;
+    background-color: rgb(251, 255, 251);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align:center;
+    padding-top: 6px;
+  }
+#panelbottom{
+  width: 100%;
+  height: calc(100% - 100px);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bubble{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  color: aliceblue;
+  border-radius: 50px;
+  background-color: green;
+}
